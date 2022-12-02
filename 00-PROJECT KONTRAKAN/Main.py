@@ -64,13 +64,13 @@ def cek_nomor():
             print("Nomor sudah ada yang ngisi")
             cek_nomor()
 
-def tambah_data():
     if nomer_kontrakan >= 1 and nomer_kontrakan <= jml_kontrakan:
         pengontrak_baru=[pengontrak,nomer_kontrakan]        
         nama_pengontrak.append(pengontrak_baru)
         display()
     else:
         print(f"masukan nomer 1 sampai {jml_kontrakan}")  
+        cek_nomor()
 
 i=1
 
@@ -80,8 +80,6 @@ while True:
     cek_nama()                  
 
     cek_nomor()
-
-    tambah_data()
 
     if i==jml_kontrakan:
         print("kontrakan sudah penuh")
