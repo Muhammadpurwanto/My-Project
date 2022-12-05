@@ -1,17 +1,19 @@
-display="""
-No.|  Menu                |Ukuran       |Harga  
------------------------------------------------
-1. | POPCORN CARAMEL(PC)  |Small(S)     |20.000
-2. | POPCORN CARAMEL(PC)  |Medium(M)    |30.000
-3. | POPCORN CARAMEL(PC)  |Large(L)     |40.000
-4. | POPCORN HONEY(PH)    |Small(S)     |15.000
-5. | POPCORN HONEY(PH)    |Medium(M)    |25.000
-6. | POPCORN HONEY(PH)    |Large(L)     |35.000
-7. | POPCORN SWEET(PS)    |Small(S)     |25.000
-8. | POPCORN SWEET(PS)    |Medium(M)    |35.000
-9. | POPCORN SWEET(PS)    |Large(L)     |45.000
-"""
-print(display)
+def display():
+    print(   """
+    No.|  Menu                |Ukuran       |Harga  
+    -----------------------------------------------
+    1. | POPCORN CARAMEL(PC)  |Small(S)     |20.000
+    2. | POPCORN CARAMEL(PC)  |Medium(M)    |30.000
+    3. | POPCORN CARAMEL(PC)  |Large(L)     |40.000
+    4. | POPCORN HONEY(PH)    |Small(S)     |15.000
+    5. | POPCORN HONEY(PH)    |Medium(M)    |25.000
+    6. | POPCORN HONEY(PH)    |Large(L)     |35.000
+    7. | POPCORN SWEET(PS)    |Small(S)     |25.000
+    8. | POPCORN SWEET(PS)    |Medium(M)    |35.000
+    9. | POPCORN SWEET(PS)    |Large(L)     |45.000
+    """)
+
+display()
 pesanan_list=[]
 ukuran_list=[]
 harga_list=[]
